@@ -1,0 +1,21 @@
+.editable {
+    border:2px dotted rgb(211, 78, 255);
+    position: relative;
+}
+
+.editable::after {
+    content: "\f14b";
+    color: #000000c5;
+    text-shadow: none;
+    margin: 0;
+    padding: 0;
+    font-family: FontAwesome;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    height: 20px;
+    line-height: 20px;
+    cursor:pointer;
+}
